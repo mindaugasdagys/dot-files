@@ -14,9 +14,15 @@ brew update
 brew tap Homebrew/bundle
 brew bundle
 
+#####################
+# Symlinks
+#####################
+
+ln -s ~/.dotfiles/.bash_profile ~
+
 # Create a code directory for coding projects
 mkdir $HOME/code
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source .macos
+source macos
