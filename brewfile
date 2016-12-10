@@ -32,6 +32,7 @@ brew 'tree'
 brew 'mackup'
 brew 'mas'
 brew 'node'
+brew 'yarn'
 brew 'trash'
 brew 'wget'
 
@@ -41,7 +42,7 @@ brew 'wget'
 
 # Apps
 #cask 'aerial'
-cask 'alfred'
+#cask 'alfred'
 cask 'atom'
 #cask 'caffeine'
 #cask 'cheatsheet'
@@ -62,10 +63,10 @@ cask 'slack'
 cask 'vlc'
 
 # Fonts
-cask 'font-sauce-code-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
-# mas
+mas 'LastPass' id:926036361
+mas 'Xcode' id:497799835

@@ -11,6 +11,9 @@ PS1='\n\u@\h: \w\n→ '
 # Ensure dotfiles dotfiles [or in other setups ~/bin] directory is loaded first
 export PATH="~/.dotfiles:$PATH"
 
+# ensure yarn works
+PATH="$PATH:`yarn global bin`"
+
 # For fasd to work
 eval "$(fasd --init auto)"
 
