@@ -18,7 +18,8 @@ brew bundle
 # Symlinks
 #####################
 
-ln -s ~/.dotfiles/.bash_profile ~
+# mackup symlings .bash_profiles to Dropbox, thus below not necessary
+#ln -s ~/.dotfiles/.bash_profile ~
 
 # Create a code directory for coding projects
 mkdir $HOME/code

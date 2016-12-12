@@ -17,3 +17,5 @@ sudo pmset -a standbydelay 86400
 
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
+#sudo nvram SystemAudioVolume=%00
+#sudo nvram SystemAudioVolume=%01

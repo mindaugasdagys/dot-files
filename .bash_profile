@@ -11,6 +11,10 @@ PS1='\n\u@\h: \w\n→ '
 # Ensure dotfiles dotfiles [or in other setups ~/bin] directory is loaded first
 export PATH="~/.dotfiles:$PATH"
 
+# For Z to work
+. /usr/local/etc/profile.d/z.sh
+
+
 # ensure yarn works
 PATH="$PATH:`yarn global bin`"
 
