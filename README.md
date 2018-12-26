@@ -1,7 +1,10 @@
 # dotfiles
+## General info
+https://dotfiles.github.io
 
+## Clean reinstall workflow
 https://github.com/driesvints/dotfiles
 
 todo:
-- relocate mackup folder to iCloud - makes install Dropbox unnecessary on new mac or new user
-- ...
+- [ ] relocate mackup folder to iCloud - makes install Dropbox unnecessary on new mac or new user
+- [x] make ~/.mackup.cfg
