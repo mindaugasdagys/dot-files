@@ -2,6 +2,9 @@
 
 echo "Setting up your Mac..."
 
+#installing command line tools without Xcode itself
+xcode-select --install
+
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
